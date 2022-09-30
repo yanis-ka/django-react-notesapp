@@ -155,7 +155,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS_ALLOW_ALL_ORIGINS = True
 
-# if os.environ.get('ENV') == 'PRODUCTION':
+if os.environ.get('ENV') == 'PRODUCTION':
 #     PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 #     STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 #     STATICFILES_DIRS = (
