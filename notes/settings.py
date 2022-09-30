@@ -98,8 +98,8 @@ DATABASES = {
         'NAME': 'mynotes',
         'USER': 'yanis',
         'PASSWORD': '',
-        'HOST': '/var/run/postgresql',
-        'PORT': '5432',
+        'HOST': '',
+        'PORT': '',
     }
 }
 
