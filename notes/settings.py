@@ -37,7 +37,7 @@ ALLOWED_HOSTS = [ '127.0.0.1',
 # White listing the localhost:3000 port
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
-    "https://my-notes-django-react.netlify.app/",
+    # "https://my-notes-django-react.netlify.app/",
 )
 
 
@@ -95,12 +95,12 @@ WSGI_APPLICATION = 'notes.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mynotes',
         'USER': 'yanis',
         'PASSWORD': '',
         'HOST': '',
-        'PORT': '',
+        'PORT': '3306',
     }
 }
 
