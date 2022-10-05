@@ -31,13 +31,13 @@ else:
     DEBUG = True
 
 ALLOWED_HOSTS = [ '127.0.0.1',
-                  'https://app-react-mynotes.herokuapp.com/'
+                  'https://my-notes-django-react.netlify.app'
                 ]
 
 # White listing the localhost:3000 port
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
-    # "https://my-notes-django-react.netlify.app/",
+    "https://my-notes-django-react.netlify.app/",
 )
 
 
