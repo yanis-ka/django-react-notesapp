@@ -25,10 +25,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-s5(&bl&#j8a*h((5h=cjak1+fno=*6%%ja-bi!8g#s_bsp5&49'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-if os.environ.get('ENV') == 'PRODUCTION':
-    DEBUG = False
-else:
-    DEBUG = True
+# if os.environ.get('ENV') == 'PRODUCTION':
+#     DEBUG = False
+# else:
+#     DEBUG = True
+
+DEBUG = False
 
 ALLOWED_HOSTS = [ '127.0.0.1',
                   'http://yanis.pythonanywhere.com'
