@@ -31,7 +31,7 @@ else:
     DEBUG = True
 
 ALLOWED_HOSTS = [ '127.0.0.1',
-                  'https://my-notes-django-react.netlify.app'
+                  'http://yanis.pythonanywhere.com'
                 ]
 
 # White listing the localhost:3000 port
