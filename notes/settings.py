@@ -39,7 +39,7 @@ ALLOWED_HOSTS = [ '127.0.0.1',
 # White listing the localhost:3000 port
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:3000',
-    "https://my-notes-django-react.netlify.app/",
+    "https://my-notes-django-react.netlify.app",
 )
 
 
