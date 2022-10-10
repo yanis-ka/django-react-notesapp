@@ -34,7 +34,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [ '127.0.0.1',
                   'http://yanis.pythonanywhere.com',
-                  'http://kayanis.pythonanywhere.com/api/notes',
+                  'http://kayanis.pythonanywhere.com',
                 ]
 
 # White listing the localhost:3000 port
