@@ -98,8 +98,8 @@ WSGI_APPLICATION = 'notes.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mynotes',
-        'USER': 'yanis',
+        'NAME': 'KAYanis$Mynotes',
+        'USER': 'KAYanis@10.0.0.121',
         'PASSWORD': '',
         'HOST': '',
         'PORT': '3306',
