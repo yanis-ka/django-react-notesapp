@@ -33,7 +33,8 @@ SECRET_KEY = 'django-insecure-s5(&bl&#j8a*h((5h=cjak1+fno=*6%%ja-bi!8g#s_bsp5&49
 DEBUG = False
 
 ALLOWED_HOSTS = [ '127.0.0.1',
-                  'http://yanis.pythonanywhere.com'
+                  'http://yanis.pythonanywhere.com',
+                  'http://kayanis.pythonanywhere.com/api/notes',
                 ]
 
 # White listing the localhost:3000 port
